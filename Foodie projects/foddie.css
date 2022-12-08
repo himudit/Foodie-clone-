@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* display: inline-block; */
+
+    height: 1224px;
+    border: 2px solid white
+}
+
+body {
+    background: url('pic-foodie.jpg');
+    background-repeat: no-repeat;
+    background-size: 99% 40%;
+    overflow: hidden x;
+}
+
+/* <!-- FOR LOGO -->  */
+.l1 {
+    display: block;
+    top: 11px;
+    left: 2%;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+}
+
+.l1 img {
+    width: 136px;
+}
+
+/* FOR NAVBAR */
+.a1 {
+    position: relative;
+    top: 0%;
+    left: 14%;
+    margin: 20px auto;
+    width: 103%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.a1 ul {
+    overflow: auto;
+}
+
+.a1 ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.a1 ul li a:hover {
+    color: burlywood;
+}
+
+li {
+    font-size: 156%;
+    display: inline-block;
+    margin: 4px;
+    padding: 43px;
+}
+
+/* FOR INTRO  */
+.para {
+    font-size: 519%;
+    text-align: center;
+    color: white;
+}
+
+.d1 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+/* FOR 2ND BG */
+.bgs {
+    position: relative;
+    top: 32%;
+}
+
+.bgs img {
+    width: 99.2%;
+    /* position: relative;
+        top: -31%; */
+}
+
+
+/* FOR SPONSORS */
+.sh {
+    color: #ff4800;
+    text-align: center;
+    font-size: 565%;
+    position: relative;
+    top: -42%;
+}
+
+.s1 {
+    position: relative;
+    top: -39%;
+    left: 2%;
+}
+
+.s2 {
+    position: relative;
+    top: -57.79%;
+    left: 22%;
+}
+
+.s2 img {
+    width: 27%;
+}
+
+.s3 {
+    position: relative;
+    top: -77%;
+    left: 51%;
+}
+
+.s4 {
+    position: relative;
+    top: -95.9%;
+    left: 72%;
+}
+
+.s4 img {
+    width: 25%;
+}
+
+/* FOR CHEF */
+.left {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: -46%;
+    left: 2%;
+    background-color: azure;
+    border: 2px solid#935a1e;
+    ;
+    color: rgb(3, 20, 34);
+    width: 345px;
+    height: 408px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.c1 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.left img {
+    background-repeat: no-repeat;
+    margin: -6px;
+    padding: 42px;
+    width: 266px;
+    height: 260px;
+}
+
+
+/* FOR RESTUARANT */
+.mid {
+    display: inline-block;
+    position: relative;
+    left: 8.8%;
+    top: -46%;
+    background-color: azure;
+    border: 2px solid #935a1e;
+    ;
+    color: rgb(3, 20, 34);
+    width: 345px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c2 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.mid img {
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 42px;
+    width: 266px;
+    height: 260px;
+}
+
+/* FOR DELIEVERY */
+.right {
+    float: right;
+    position: relative;
+    right: 3%;
+    top: -46%;
+    background-color: azure;
+    border: 2px solid #935a1e;
+    ;
+    color: rgb(3, 20, 34);
+    width: 345px;
+    height: 408px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c3 {
+    display: flex;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.right img {
+    background-repeat: no-repeat;
+    margin: -21px;
+    padding: 42px;
+    width: 303px;
+    height: 260px;
+}
+
+
+/* FOR FORM  */
+.GIT{
+    position:relative;
+    left: 35%;
+    font-size: 124%;
+}
+.f1 {
+    font-size: 405%;
+    position: relative;
+    top: -77%;
+    color: blue;
+
+}
+
+.f1 img {
+    background-repeat: no-repeat;
+}
+
+.f2 {
+    background-color: aliceblue;
+    color: darkgray;
+}
+
+.f2 input {
+    text-align: center;
+    display: flex;
+    width: 389px;
+    padding: 6px;
+    color: #1233e6;
+    border: 0px solid white;
+    margin: 7px auto;
+    border-radius: 10px;
+    background-color: #dbdbf4;
+    height: 68px;
+
+}
+
+#btn {
+    position: relative;
+    left: 47%;
+}
